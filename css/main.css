@@ -177,10 +177,8 @@ img {
     border-radius: 3px;
 }
 
-# {
-    position: relative;
-    
-    top: 40px; 
+#save-task {
+    position: relative; 
     border-radius: 4px;
     background-color: purple;
     height: 40px;
