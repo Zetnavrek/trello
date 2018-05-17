@@ -17,7 +17,7 @@
             <div class= "search"><input type="text">
             </div>
             <div class= "logo">
-                <img src="assets\images\trello-logo-white-e1462986505446.png">           
+                <img id= "image" src="assets\images\trello-logo-white-e1462986505446.png">           
             </div>
             <div class= 'menu'>
             <a href=""><i class="fas fa-plus"></i></a>
@@ -40,7 +40,15 @@
         <div class = "beginning">
                 <input type="text" name="" id="list" placeholder="Añadir una tarea...">
             <div class="tasks">
-                    <h3 id="tasks-title"></h3>
+                    <form id="version2" >
+                            <h3 id="tasks-title"></h3>
+                            <div id="hide"><input type="text" name="" id="get-value" place holder= "Anadir una lista...">
+                                <button type="button" id="save-list">Guardar</button>
+                                <button type="button" id="show-list">Agreaga una tarea...</button>
+                            </div>
+                                
+                    </form>
+                    
                     <form id="title-list">
                         <div id="first-homework">
                         </div>
@@ -52,16 +60,7 @@
                     
                 </form>
             </div>
-            <div>
-                    <form >
-                            <h3 id="tasks-title"></h3>
-                            <input type="text" name="" id="get-value" place holder= "Anadir una lista...">
-                            <button type="button" id = "save-list">Guardar</button>
-                    </form>
-                </div>
-
-        
-    </section>
+        </section>
 
     <script type="text/javascript" src="js/app.js"></script>
 </body>
