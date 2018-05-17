@@ -1,8 +1,8 @@
-// Version 0.1 
+var showList// Version 0.1 
 //Se crea un evento para que aparezca el text area, y desaparezca el primer input. 
 var transform = document.getElementById ("list");
 transform.addEventListener('click', function(){
-    var lista1 = document.getElementById("version2");
+    var lista1 = document.getElementById("title-list");
     lista1.style.display= "block";
     transform.style.display="none";
 });
@@ -15,7 +15,7 @@ var ListButton=saveValue.value;
 var contentValue=document.createTextNode(ListButton);
 var father=document.getElementById("title-list");
 var tasksTitle=document.getElementById("tasks-title");
-var showList=document.getElementById("show-list");//Se intenta agregar la liga de lista de tareas.
+var showList=document.getElementById("show-list");
 var newSaveTask=document.getElementById("title-list");
 tasksTitle.appendChild(contentValue);
 // father.appendChild(tasksTitle);
@@ -23,15 +23,16 @@ tasksTitle.appendChild(contentValue);
 saveListButton.style.display='none';
 showList.style.display="block";
 
-showList.addEventListener('click', function(){
+
+
+
+});
+/*showList.addEventListener('click', function(){
     var nextList= document.getElementById("title-list");
 
-});
 
 
-
-
-});
+});*/
 
 
 //Version 3.0 - 4.0 - 5.0
